@@ -1,4 +1,5 @@
-#Async streams
+# Async streams
+
 The async/await feature of C# 5.0 lets you consume (and produce) asynchronous results in straightforward code, without callbacks:
 
 ```csharp
@@ -25,7 +26,7 @@ async IAsyncEnumerable<int> GetBigResultsAsync()
 }
 ```
 
-##Known issues
+## Known issues
 
 - Dotnet core 3.0-preview1 has a compiler bug that forces you to use the `async` keyword even if you don't use `await` inside the method.
 For more details, please refer to the github issue: https://github.com/dotnet/roslyn/issues/31608

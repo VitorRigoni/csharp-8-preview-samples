@@ -1,4 +1,5 @@
-#Ranges and indices
+# Ranges and indices
+
 We're adding a type Index, which can be used for indexing. You can create one from an int that counts from the beginning, or with a prefix ^ operator that counts from the end:
 
 ```csharp
